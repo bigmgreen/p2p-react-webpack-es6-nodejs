@@ -1,0 +1,116 @@
+html,
+body {
+    font-family: "Microsoft YaHei", PingFang, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    min-width: 1200px;
+    background-color: #eee;
+}
+
+div,
+span,
+section,
+article,
+header,
+footer,
+figure,
+figcaption,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+select,
+textarea,
+button,
+p,
+img,
+a,
+strong,
+label {
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover,
+a:hover {
+    filter: Alpha(opacity=70);
+    opacity: .7;
+    text-decoration: none;
+}
+
+.clear-fix {
+    zoom: 1;
+}
+
+.clear-fix:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+button {
+    border: none;
+    background: none;
+    text-align: center;
+    outline: none;
+}
+
+button:focus {
+    outline: 0 none !important;
+}
+
+textarea {
+    resize: vertical;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+label {
+    font-weight: normal;
+}

@@ -1,0 +1,35 @@
+.loan-plan-title {
+    background-color: #eee;
+    border-radius: 2px 2px 0 0;
+    font-size: 20px;
+    font-weight: normal;
+    margin: -20px -20px 50px -20px;
+    padding: 20px;
+}
+
+.loan-plan ul {
+    margin-top: 20px;
+}
+
+.loan-plan li {
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+.loan-plan {
+    background-color: #FFF;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+    margin: 35px 0;
+    padding: 20px;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.8);
+    text-align: center;
+    -webkit-box-shadow: 0 0 1px #999;
+    -moz-box-shadow: 0 0 1px #999;
+    box-shadow: 0 0 1px #999;
+}

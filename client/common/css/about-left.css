@@ -1,0 +1,38 @@
+.about-left {
+    font-size: 18px;
+    width: 200px;
+    float: left;
+    background-color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    -webkit-box-shadow: 0 0 5px #ddd;
+    -moz-box-shadow: 0 0 5px #ddd;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.about-left a:hover,
+.about-left a.active {
+    background-color: #F7F7F7;
+}
+
+.about-left a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    -webkit-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    -ms-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    transition: background-color .3s;
+}
+
+.about-right {
+    width: 960px;
+    float: right;
+    background-color: #fff;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 0 5px #ddd;
+    -moz-box-shadow: 0 0 5px #ddd;
+    box-shadow: 0 0 5px #ddd;
+    padding: 20px;
+}

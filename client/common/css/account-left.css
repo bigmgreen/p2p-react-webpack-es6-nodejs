@@ -1,0 +1,44 @@
+.account-left {
+    width: 245px;
+    float: left;
+}
+
+.account-right {
+    width: 920px;
+    float: right;
+    overflow: hidden;
+}
+
+.account-left dl {
+    margin-bottom: 20px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 5px #ddd;
+    -moz-box-shadow: 0 0 5px #ddd;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.account-left dt {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgba(140, 26, 29, .7);
+}
+
+.account-left dd a {
+    font-size: 12px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    border-top: 1px solid #EDEDDE;
+    color: #333;
+}
+
+.account-left dd a.active {
+    color: #8C1A1D;
+    background-color: #f1f1f1;
+}

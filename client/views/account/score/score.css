@@ -1,0 +1,48 @@
+.score-list li:first-child {
+    border-left: none;
+}
+
+.score-list li {
+    float: left;
+    width: 25%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 25px 0;
+    border-left: 1px solid #f4f4f4;
+}
+
+.score-list p {
+    color: #afafaf;
+    font-size: 17px;
+}
+
+.score-list p:first-child + p {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.score-list p.score-lj {
+    color: #00A672;
+}
+
+.score-list p.score-ky {
+    color: #FB6E02;
+}
+
+.score-list p.score-dj {
+    color: #009EDC;
+}
+
+.score-list p.score-yy {
+    color: #DF032E;
+}
+
+.active {
+    color: #00A672;
+}
+
+td {
+    font-size: 12px;
+}

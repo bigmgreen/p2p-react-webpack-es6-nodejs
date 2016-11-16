@@ -1,0 +1,694 @@
+/*
+ Name: 			app.css
+ Written by: 	http://www.zkbc.net
+ Version: 		1.0
+ */
+.button {
+    font-family: "寰蒋闆呴粦";
+}
+
+#header .header-top {
+    min-height: 30px;
+    font-size: 14px;
+}
+
+a {
+    color: #8C1A1D;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #8C1A1D;
+}
+
+h3, h4, h5 {
+    color: #8C1A1D;
+}
+
+.page-top a {
+    color: #777;
+}
+
+.page-top a:hover {
+    color: #777;
+}
+
+section.page-top h1 {
+    border-bottom-color: #8C1A1D;
+}
+
+.tabs ul.nav-tabs a, .tabs ul.nav-tabs a:hover {
+    color: #8C1A1D;
+}
+
+.tabs ul.nav-tabs a:hover, .tabs ul.nav-tabs a:focus {
+    border-top-color: #8C1A1D;
+}
+
+.tabs ul.nav-tabs li.active a {
+    border-top-color: #8C1A1D;
+    color: #8C1A1D;
+}
+
+.tabs ul.nav-tabs.nav-justified a:hover,
+.tabs ul.nav-tabs.nav-justified a:focus {
+    border-top-color: #8C1A1D;
+}
+
+.tabs.tabs-bottom ul.nav-tabs li a:hover,
+.tabs.tabs-bottom ul.nav-tabs li.active a,
+.tabs.tabs-bottom ul.nav-tabs li.active a:hover,
+.tabs.tabs-bottom ul.nav-tabs li.active a:focus {
+    border-bottom-color: #8C1A1D;
+}
+
+.tabs.tabs-vertical.tabs-left ul.nav-tabs li a:hover,
+.tabs.tabs-vertical.tabs-left ul.nav-tabs li.active a,
+.tabs.tabs-vertical.tabs-left ul.nav-tabs li.active a:hover,
+.tabs.tabs-vertical.tabs-left ul.nav-tabs li.active a:focus {
+    border-left-color: #8C1A1D;
+}
+
+.tabs.tabs-vertical.tabs-right ul.nav-tabs li a:hover,
+.tabs.tabs-vertical.tabs-right ul.nav-tabs li.active a,
+.tabs.tabs-vertical.tabs-right ul.nav-tabs li.active a:hover,
+.tabs.tabs-vertical.tabs-right ul.nav-tabs li.active a:focus {
+    border-right-color: #8C1A1D;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    background-color: #8C1A1D;
+    border-color: #8C1A1D;
+}
+
+.pagination > li > a,
+.pagination > li > span,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+    color: #333333;
+}
+
+section.toggle.active > label {
+    background-color: #8C1A1D;
+    border-color: #8C1A1D;
+    color: #fff;
+}
+
+section.toggle label {
+    border-left-color: #8C1A1D;
+    color: #8C1A1D;
+}
+
+#uploader .placeholder .webuploader-pick {
+    background-color: #CE0808;
+}
+
+#uploader .placeholder .webuploader-pick-hover {
+    background-color: #8C1A1D;
+}
+
+#login-btn,
+.own_btn {
+    background: #8C1A1D;
+    border-color: #8C1A1D !important;
+}
+
+#login-btn:hover,
+.own_btn:hover {
+    background: #CE0808;
+    border-color: #CE0808 !important;
+}
+
+/*start-鎶曡祫鍒楄〃椤祃oanList.html*/
+
+.loan-selection li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.loan-select-active {
+    background: #00A8FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.loan-selected {
+    background: #00A8FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.loan-list h4 strong {
+    margin-left: 20px;
+}
+
+.pricing-table .plan-space h3 {
+    font-size: 16px;
+}
+
+.plan-space .circular-bar strong {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    position: absolute;
+    top: 23%;
+    width: 80%;
+    left: 13%;
+    text-align: center;
+}
+
+.calculate h4 {
+    color: #777777;
+    font-family: "骞煎渾";
+    font-weight: bold;
+}
+
+/*end-鎶曡祫鍒楄〃椤祃oanList.html*/
+
+/*start-鎶曡祫璇︽儏椤祊ersonLoanList.html*/
+.tab-content .progress-bars {
+    margin-left: 15px;
+}
+
+.loan-start-invest ul {
+    background: #F3F3F3;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.loan-start-invest li, .loan-start-invest button {
+    margin: 5px;
+}
+
+.loan-start-invest li strong {
+    font-size: 36px;
+}
+
+#personl-info .tab-pane {
+    font-size: 12px;
+}
+
+.info-tab-height {
+    height: 240px;
+}
+
+#record .tab-pane {
+    height: 300px;
+    font-size: 12px;
+}
+
+#invest-record th, #invest-record td, #repay-record th, #repay-record td {
+    text-align: center;
+}
+
+/*end-鎶曡祫璇︽儏椤祊ersonLoanList.html*/
+
+/*start-鎶曡祫纭椤甸潰*/
+#confirm-loan-invest .form-group {
+    margin-bottom: 0px;
+}
+
+#confirm-loan-invest .form-group .col-sm-6 {
+    margin-top: 7px;
+}
+
+#confirm-loan-invest form img {
+    height: 30px;
+    width: 110px;
+    cursor: pointer;
+}
+
+.error-msg {
+    color: #FF0000;
+}
+
+/*end-鎶曡祫纭椤甸潰*/
+
+/*start-涓汉鍊熸鐢宠浼佷笟铻嶈祫椤甸潰*/
+#add-enterpriseloan-form img {
+    width: 110px;
+    height: 32px;
+    cursor: pointer;
+}
+
+/*end-涓汉鍊熸鐢宠浼佷笟铻嶈祫椤甸潰*/
+
+/*start-棣栭〉鑷畾涔夋牱寮�/
+#header .head-top-right {
+    clear: right;
+    float: right;
+    margin-top: 0px;
+    margin-left: 5px;
+    position: relative;
+}
+
+#header .head-top-right li a:hover {
+    background-color: #0099e6;
+}
+
+#header nav ul.nav-main li a, #header nav ul.nav-main ul.dropdown-menu > li > a {
+    fonts-size: 16px;
+    fonts-weight: bolder;
+}
+
+.plan .circular-bar strong {
+    display: block;
+    fonts-weight: 600;
+    fonts-size: 18px;
+    line-height: 30px;
+    top: 30%;
+    width: 80%;
+    left: 13%;
+    position: absolute;
+    text-align: center;
+}
+
+.tab-content {
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+}
+
+.tab-content-padded {
+    padding: 10px 20px;
+}
+
+.tab-border-bottom {
+    border-bottom: 1px solid #ddd;
+}
+
+.tab-content-padded ul li, .loan-list li {
+    list-style: none;
+}
+
+.tab-content-padded ul, .loan-list ul {
+    margin: 10px 0;
+    padding: 0px;
+}
+
+td .circular-bar strong {
+    display: block;
+    fonts-size: 15px;
+    fonts-weight: 300px;
+    left: 7%;
+    line-height: 0px;
+    position: absolute;
+    text-align: center;
+    top: -20%;
+    width: 1%;
+}
+
+.news-titile {
+    fonts-size: 15px;
+}
+
+.news-titile a {
+    color: #000000;
+}
+
+.news-wrap ul {
+    border-bottom: 1px solid #E0E0E0;
+    list-style: none;
+    padding: 5px;
+}
+
+.news-date {
+    float: right;
+    fonts-size: 12px;
+}
+
+#footer .link {
+    margin-top: 10px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+#footer li a {
+    fonts-size: 12px;
+    color: #FFFFFF;
+}
+
+#footer .pfo {
+    padding: 0 10px;
+}
+
+#footer .sfo {
+    padding: 0 9px;
+}
+
+.footer-info > :first-child {
+    color: #FFFFFF;
+    fonts-weight: bold;
+    fonts-size: 14px;
+}
+
+/*end-棣栭〉鑷畾涔夋牱寮�/
+
+/*start-鐧诲綍椤祃ogin.html*/
+#login-form .row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#error-msg {
+    color: #C10000;
+}
+
+.ul_login {
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.mf_qqimg {
+    background: url(/static/themes/default/img/login_union.png);
+}
+
+.mf_qqimg:HOVER {
+    background: url(/static/themes/default/img/login_union.png) 0px 20px;
+}
+
+.mf_sinaimg {
+    background: url(/static/themes/default/img/login_union.png) 25px 0px;
+}
+
+.mf_sinaimg:HOVER {
+    background: url(/static/themes/default/img/login_union.png) 25px 20px;
+}
+
+/*end-鐧诲綍椤祃ogin.html*/
+
+/*start-娉ㄥ唽椤祌egister.html*/
+
+#reg-phone form .btn-sm {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#reg-email form img {
+    width: 110px;
+    height: 32px;
+    cursor: pointer;
+}
+
+/*end-娉ㄥ唽椤祌egister.html*/
+
+/*start-鍊烘潈鍒楄〃椤垫牱寮�/
+#example thead > :first-child, #example2 thead > :first-child {
+    background: #EEEEEE;
+}
+
+#example th, #example td, #example2 th, #example2 td {
+    text-align: center;
+    color: #000000;
+}
+
+/*end-鍊烘潈鍒楄〃椤垫牱寮�/
+
+/*start-璐︽埛璁剧疆椤甸潰鏍峰紡*/
+.sendMsg {
+    margin-top: 8px;
+}
+
+/*end-璐︽埛璁剧疆椤甸潰鏍峰紡*/
+
+/*start-鍏充簬鎴戜滑鍏憡鍒楄〃椤甸潰鏍峰紡*/
+.common-list a:link, .common-list a:hover, .common-list a:visited {
+    text-decoration: none;
+    color: #777777;
+}
+
+/*end-鍏充簬鎴戜滑鍏憡鍒楄〃椤甸潰鏍峰紡*/
+
+/*start-娲诲姩涓撳尯椤甸潰鏍峰紡*/
+.hd {
+    width: 186px;
+    height: 63px;
+}
+
+.now-activity-active {
+    background: url(/static/themes/default/img/hdtab.png);
+}
+
+.now-activity-hover {
+    background: url(/static/themes/default/img/hdtab.png) 0px 138px;
+}
+
+.now-activity-noactive {
+    background: url(/static/themes/default/img/hdtab.png) 0px 276px;
+}
+
+.future-activity-active {
+    background: url(/static/themes/default/img/hdtab.png) 186px 0px;
+}
+
+.future-activity-hover {
+    background: url(/static/themes/default/img/hdtab.png) 186px 138px;
+}
+
+.future-activity-noactive {
+    background: url(/static/themes/default/img/hdtab.png) 186px 276px;
+}
+
+.old-activity-active {
+    background: url(/static/themes/default/img/whdtab.png) 186px 0px;
+}
+
+.old-activity-hover {
+    background: url(/static/themes/default/img/whdtab.png) 186px 138px;
+}
+
+.old-activity-noactive {
+    background: url(/static/themes/default/img/whdtab.png) 186px 276px;
+}
+
+.now-activity-style {
+    margin-top: 10px;
+    border: 1px solid #8FC7EA;
+    border-radius: 5px;
+    background-color: #E4F5FF;
+}
+
+.future-activity-style {
+    margin-top: 10px;
+    border: 1px solid #FFD1A4;
+    border-radius: 5px;
+    background-color: #FFFAE5;
+}
+
+.old-activity-style {
+    margin-top: 10px;
+    border: 1px solid #C6E591;
+    border-radius: 5px;
+    background-color: #EDFFCF;
+}
+
+#activity {
+    margin: 10px 0 20px 0;
+}
+
+#activity a span {
+    font-size: 20px;
+}
+
+.hd-title {
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#now-activity-body a:link, #now-activity-body a:visited {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#now-activity-body a:hover {
+    color: #00A0DC;
+    text-decoration: none;
+}
+
+/*end-娲诲姩涓撳尯椤甸潰鏍峰紡*/
+
+/*start-璐︽埛涓績椤垫牱寮�/
+
+.nav-menu-account .active {
+    background-color: #f7f7f7;
+}
+
+/*end-璐︽埛涓績椤垫牱寮�/
+
+/* start-椤甸潰澶撮儴鏍峰紡 */
+.followus {
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.follow-weibo {
+    background: url(/static/themes/default/img/follow-us.png) 30px 0px;
+}
+
+.follow-weibo-hover {
+    background: url(/static/themes/default/img/follow-us.png) 30px 30px;
+}
+
+.follow-weixin {
+    background: url(/static/themes/default/img/follow-us.png) 0px 0px;
+}
+
+.follow-weixin-hover {
+    background: url(/static/themes/default/img/follow-us.png) 0px 30px;
+}
+
+.toarrow {
+    /*涓嬮潰鏈夐鑹诧紝鍏朵粬閫忔槑*/
+    border-color: transparent transparent #ffffff transparent;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 4px;
+    top: 32px;
+    z-index: 100;
+    /* ie6 height fix */
+    font-size: 0;
+    line-height: 0;
+    /* ie6 transparent fix */
+    _border-top-color: #dddddd;
+    _border-bottom-color: #dddddd;
+    _filter: chroma(color=#dddddd);
+}
+
+.topop-content {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    top: 42px;
+    left: -60px;
+    z-index: 99;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* end-椤甸潰澶撮儴鏍峰紡 */
+
+/*     zx--start     */
+
+.main {
+    background-color: #f8f8f8;
+    min-width: 1200px;
+    
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main .main-left {
+    float: left;
+    width: 192px;
+}
+
+.main .main-right {
+    width: 975px;
+    float: right;
+}
+
+/*	璐︽埛宸﹁彍鍗曟牱寮忚鐩�start	*/
+
+.toogle section:first-child {
+    margin-top: 0;
+}
+
+.toogle .toggle-content {
+    background-color: #fff;
+}
+
+.toggle-content ul.nav-list.primary > li a {
+    color: #777;
+    height: 42px;
+    line-height: 42px;
+    padding: 0;
+    text-align: center;
+    background: none;
+}
+
+ul.nav-list.primary > li a:hover,
+ul.nav-list.primary > li a.active {
+    color: #8C1A1D;
+    background-color: #f1f1f1;
+}
+
+section.toggle > label {
+    font-size: 16px;
+    border-radius: 0;
+    background-color: #fff;
+}
+
+section.toggle > label i {
+    float: left;
+    margin-top: 8px;
+}
+
+/*    闈㈠寘灞�start  */
+.page-title {
+    height: 45px;
+    line-height: 45px;
+    background-color: #f8f8f8;
+}
+
+.page-title a {
+    font-size: 14px;
+    color: #595959;
+}
+
+.page-title a::after {
+    content: ' > ';
+    font-weight: normal;
+}
+
+.page-title a.active {
+    font-weight: bold;
+}
+
+.page-title a.active::after {
+    content: '';
+}
+
+/*   闈㈠寘灞�end   */
+
+/*	璐︽埛宸﹁彍鍗曟牱寮忚鐩�end	*/
+.hover:hover {
+    opacity: .7;
+    filter: Alpha(opacity=70);
+}
+/*     zx--end     */
+
+body{
+	min-width: 1200px;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.myContainer{
+	width: 1200px;
+	margin: 0 auto;
+    overflow: hidden;
+}

@@ -1,0 +1,13 @@
+table {
+    margin-top: 20px;
+}
+
+th {
+    background-color: #f5f5f5;
+    text-align: center;
+    border: 0 none !important;
+}
+
+td {
+    text-align: center;
+}

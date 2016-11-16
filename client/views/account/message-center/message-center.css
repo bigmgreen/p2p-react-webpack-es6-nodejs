@@ -1,0 +1,266 @@
+#mainAccount {
+    background-color: #f8f8f8;
+}
+
+/*account leftCol end*/
+
+/*account rigCol start*/
+.secRig {
+    width: 900px;
+}
+
+/*account rigCol common end*/
+/*tabs*/
+.tabBox {
+    border-radius: 4px;
+    margin-bottom: 35px;
+}
+
+.navTab {
+    width: 100%;
+    display: table;
+    border-bottom: 1px solid #eee;
+}
+
+.navTab li {
+    display: table-cell;
+}
+
+.navTab li a {
+    color: #8C1A1D;
+    border-bottom: 1px solid #DDD;
+    background-color: #F4F4F4;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding: 10px 15px;
+    display: block;
+    border-top: 3px solid #EEE;
+    border-radius: 4px 4px 0px 0px;
+    margin-bottom: -1px;
+    outline: none;
+}
+
+.navTab li a:focus {
+    outline: none;
+}
+
+.navTab li.active a {
+    border-top-color: #8C1A1D;
+    color: #8C1A1D;
+    border-bottom-color: #fff;
+    background-color: #fff;
+}
+
+/*tabContent*/
+.tabContent {
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid #EEE;
+    padding: 15px;
+    border-top: none;
+    background-color: #fff;
+}
+
+.tabContent > div {
+    display: none;
+}
+
+.tabContent > div.active {
+    display: block;
+}
+
+.bsdForm .form-group {
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.bsdForm .form-group > label {
+    width: 270px;
+    text-align: right;
+    display: inline-block;
+}
+
+.bsdForm .form-group > div {
+    display: inline-block;
+    position: relative;
+    width: 260px;
+}
+
+.bsdForm .form-group > div > label.error {
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    color: #C10000;
+    font-size: 12px;
+}
+
+.bsdForm .form-group > div > .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.bsdForm .form-group > div > label + input {
+    margin-left: 10px;
+}
+
+.bsdForm .form-group > div > div {
+    display: inline-block;
+}
+
+.bsdForm .form-group > div.selBox {
+    width: 500px;
+}
+
+.bsdForm .form-group > div > div > select {
+    width: 100px;
+    height: 34px;
+    background-color: #fff;
+}
+
+.padLeRi3 {
+    padding: 0px 3px;
+}
+
+.opeBtn {
+    width: 290px;
+    background-color: #f89b00;
+    border: none;
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    line-height: 42px;
+    margin: 20px auto;
+}
+
+.table-bordered tr > td, .table-bordered tr > th {
+    border: 1px solid #ddd;
+}
+
+.height40 {
+    line-height: 40px;
+    height: 40px;
+}
+
+.tab-pane .panel {
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.panel-heading {
+    padding: 10px 15px;
+}
+
+.panel-heading span a.defaultBtn {
+    color: #333333;
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.wid50 {
+    width: 50px;
+}
+
+.wid100 {
+    width: 100px;
+}
+
+.wid200 {
+    width: 200px;
+}
+
+table.table {
+    margin-bottom: 0;
+}
+
+td {
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+}
+
+td > a {
+    color: #6A6A6A;
+}
+
+td > a.not-read {
+    color: black;
+    font-weight: bold;
+}
+
+th.active {
+    text-align: left;
+    background-color: #f5f5f5;
+    padding: 8px;
+    line-height: 1;
+    font-size: 12px;
+}
+
+#loading {
+    display: none;
+}
+
+/*   新样式   */
+.tab-header {
+    background-color: #fff;
+}
+
+.tab-button {
+    width: 50%;
+    padding: 1em 0;
+    border-radius: 3px;
+    border: 1px solid #EEE;
+    border-top: 3px solid #EEE;
+    border-bottom: 1px solid #DDD;
+    background-color: #F4F4F4;
+}
+
+.tab-button.active {
+    border-top-color: #8C1A1D;
+    color: #8C1A1D;
+    background-color: #fff;
+    border-bottom: 0 none;
+}
+
+.tab-content {
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid #ddd;
+    border-top: 0;
+    padding: 15px;
+}
+
+.tab-item {
+    display: none;
+}
+
+.tab-item.active {
+    display: block;
+}
+
+[name='messageSetup'] {
+    position: relative;
+    top: 3px;
+    left: -1px;
+}

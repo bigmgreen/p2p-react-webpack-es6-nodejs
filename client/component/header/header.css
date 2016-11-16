@@ -1,0 +1,137 @@
+/*      顶部  start    */
+.page-top {
+    height: 40px;
+    line-height: 40px;
+    background: #eaebec;
+}
+
+.page-top-wrap {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.page-top-wrap ul {
+    height: 40px;
+    float: left;
+    padding: 0 1em;
+    width: 50%;
+}
+
+.page-top-wrap li:first-child {
+    margin-left: 0;
+}
+
+.page-top-wrap li {
+    display: inline-block;
+    margin-left: 26px;
+}
+
+.page-top-wrap a {
+    color: #a8a8a8;
+}
+
+.page-top-wrap img {
+    margin-right: 10px;
+}
+
+/*      顶部  end    */
+
+/*       导航 start      */
+
+.page-nav {
+    background-color: #fff;
+    height: 100px;
+    -webkit-box-shadow: 0 5px 5px #eee;
+    -moz-box-shadow: 0 5px 5px #eee;
+    box-shadow: 0 5px 5px #eee;
+}
+
+.page-nav-wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 32px;
+    float: left;
+}
+
+.page-nav-wrap ul {
+    float: right;
+    padding-right: 10px;
+}
+
+.page-nav-wrap li {
+    float: left;
+    margin-left: 40px;
+}
+
+.page-nav-wrap nav a {
+    font-size: 18px;
+    color: #333333;
+    line-height: 100px;
+    text-decoration: none;
+}
+
+.page-nav-wrap nav a:after {
+    content: '';
+    position: relative;
+    display: block;
+    border-bottom: 2px solid transparent;
+    top: -30px;
+    -webkit-transition: border .3s;
+    -moz-transition: border .3s;
+    -ms-transition: border .3s;
+    transition: border .3s;
+}
+
+.page-nav-wrap nav a:hover,
+.page-nav-wrap nav a.active{
+    color: #eec900;
+}
+
+.page-nav-wrap nav a:hover:after {
+    border-bottom-color: #EEC900;
+}
+
+.page-nav-select {
+    position: relative;
+}
+
+.page-nav-select ul {
+    position: absolute;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 5px #eee;
+    -moz-box-shadow: 0 0 5px #eee;
+    box-shadow: 0 0 5px #eee;
+    background-color: #fff;
+    text-align: center;
+    padding: .5em 3em;
+    top: 80px;
+    left: -60px;
+    display: none;
+    z-index: 5;
+}
+
+.page-nav-select:hover ul {
+    display: block;
+}
+
+.page-nav-select li {
+    display: block;
+    margin: 0;
+}
+
+.page-nav-select ul a {
+    display: block;
+    line-height: 2;
+    white-space: nowrap;
+}
+
+.page-nav-select ul a:after {
+    top: 0;
+}
+
+/*       导航 end      */

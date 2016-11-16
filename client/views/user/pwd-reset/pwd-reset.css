@@ -1,0 +1,47 @@
+.page-container {
+    background-color: #fff;
+    padding: 50px 15px 0;
+    min-height: 300px;
+    margin-top: 15px;
+}
+
+.page-tab {
+    text-align: center;
+    overflow: hidden;
+}
+
+form {
+    overflow: hidden;
+    padding-top: 15px;
+    width: 500px;
+    margin: 0 auto 15px;
+}
+
+.control-label:before {
+    content: '*';
+    color: #FF0101;
+}
+
+/*     Input组件样式  start     */
+
+.input-row {
+    margin-bottom: 15px;
+    padding: 0 15px;
+    background-color: #fff;
+}
+
+.input-group-addon {
+    width: 7em;
+    text-align: right;
+    padding: 0;
+    padding-right: 1em;
+    background-color: #fff;
+    border: 0 none;
+}
+
+.input-group .form-control {
+    width: 18em;
+    border-radius: 4px !important;
+}
+
+/*     Input组件样式  end     */

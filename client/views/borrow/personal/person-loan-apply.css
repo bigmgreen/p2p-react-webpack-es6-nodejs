@@ -1,0 +1,32 @@
+.person-loan-title {
+    font-size: 18px;
+    line-height: 2em;
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.control-label {
+    float: left;
+    width: 6em;
+    text-align: right;
+    margin-right: 1em;
+}
+
+.input-wrap {
+    float: left;
+    width: 500px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.help-block {
+    position: absolute;
+    font-size: 12px;
+    margin: 0;
+    bottom: -18px;
+}

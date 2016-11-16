@@ -1,0 +1,190 @@
+/*   标签页样式重置  start   */
+.tabs ul.nav-tabs a,
+.tabs ul.nav-tabs a:hover {
+    color: #8C1A1D;
+}
+
+.tabs ul.nav-tabs a:hover,
+.tabs ul.nav-tabs a:focus {
+    border-top-color: #8C1A1D;
+}
+
+.tabs ul.nav-tabs li.active a {
+    border-top-color: #8C1A1D;
+    color: #8C1A1D;
+}
+
+.tabs ul.nav-tabs.nav-justified a:hover,
+.tabs ul.nav-tabs.nav-justified a:focus {
+    border-top-color: #8C1A1D;
+}
+
+.tabs.tabs-bottom ul.nav-tabs li a:hover,
+.tabs.tabs-bottom ul.nav-tabs li.active a,
+.tabs.tabs-bottom ul.nav-tabs li.active a:hover,
+.tabs.tabs-bottom ul.nav-tabs li.active a:focus {
+    border-bottom-color: #8C1A1D;
+}
+
+.tabs.tabs-vertical.tabs-left ul.nav-tabs li a:hover,
+.tabs.tabs-vertical.tabs-left ul.nav-tabs li.active a,
+.tabs.tabs-vertical.tabs-left ul.nav-tabs li.active a:hover,
+.tabs.tabs-vertical.tabs-left ul.nav-tabs li.active a:focus {
+    border-left-color: #8C1A1D;
+}
+
+.tabs.tabs-vertical.tabs-right ul.nav-tabs li a:hover,
+.tabs.tabs-vertical.tabs-right ul.nav-tabs li.active a,
+.tabs.tabs-vertical.tabs-right ul.nav-tabs li.active a:hover,
+.tabs.tabs-vertical.tabs-right ul.nav-tabs li.active a:focus {
+    border-right-color: #8C1A1D;
+}
+
+/*   标签页样式重置  end   */
+
+/*   分页样式重置  start   */
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    background-color: #8C1A1D;
+    border-color: #8C1A1D;
+}
+
+.pagination > li > a,
+.pagination > li > span,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+    color: #333333;
+}
+
+/*   分页样式重置  end   */
+
+/*    面包屑  start  */
+.page-title {
+    height: 45px;
+    line-height: 45px;
+    background-color: #f8f8f8;
+}
+
+.page-title a {
+    font-size: 14px;
+    color: #595959;
+}
+
+.page-title a::after {
+    content: ' > ';
+    font-weight: normal;
+}
+
+.page-title a.active {
+    font-weight: bold;
+}
+
+.page-title a.active::after {
+    content: '';
+}
+
+/*    面包屑  end  */
+
+/*  半透明效果  */
+.hover:hover {
+    filter: Alpha(opacity=70);
+    opacity: .7;
+}
+
+/*   页面容器   */
+.page-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*  图片圆角    */
+.img-rounded {
+    border-radius: 6px;
+    width: 100%;
+}
+
+/*  验证错误信息颜色    */
+label.error {
+    color: #FF0101;
+    display: block;
+    font-size: 12px;
+    position: absolute;
+    top: 34px;
+}
+
+/*   警告文字颜色   */
+.text-warning {
+    color: #FF0101;
+}
+
+/*   字符串截取... 11字  */
+.text-overflow-middle {
+    display: inline-block;
+    width: 11em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/*   字符串截取... 6字  */
+.text-overflow-small {
+    display: inline-block;
+    width: 6em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/*   字符串截取... 15字  */
+.text-overflow-big {
+    display: inline-block;
+    width: 15em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/*   字符串截取... 30字  */
+.text-overflow-large {
+    display: inline-block;
+    width: 30em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/*   账户页，部分容器标题   */
+.account-wrap-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #787878;
+    border-bottom: 1px solid #eef3f6;
+}
+
+/*   账户页，部分容器样式   */
+.account-container{
+    padding: 0 20px;
+    background-color: #fff;
+}
+
+/*   账户页，部分容器盒子样式   */
+.account-wrap {
+    padding: 0 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+/*   没有数据显示样式   */
+.no-record{
+    text-align: center !important;
+    height: 200px;
+    line-height: 200px;
+    vertical-align: middle !important;
+}

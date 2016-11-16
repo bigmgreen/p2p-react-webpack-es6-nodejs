@@ -1,0 +1,45 @@
+.wrap-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #787878;
+    border-bottom: 1px solid #eef3f6;
+    margin-bottom: 20px;
+}
+.text-color{
+    color: #F96D28;
+    font-size: 12px;
+}
+.img-responsive{
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+table {
+    width: 29%;
+    float: left;
+    margin: 20px 0 20px 30px;
+}
+td {
+    padding: 10px 0;
+}
+.warm-warning {
+    padding: 20px 20px 0;
+    border-top: 1px solid #dfdfdf;
+    font-size: 14px;
+}
+.warm-warning img {
+    margin-right: 1em;
+    vertical-align: middle;
+}
+
+.warm-warning li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    line-height: 30px;
+}
+
+.score-total {
+    line-height: 3em;
+}

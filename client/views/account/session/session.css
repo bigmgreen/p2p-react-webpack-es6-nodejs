@@ -1,0 +1,85 @@
+.session-info {
+    padding: 0 20px;
+    background-color: #fff;
+}
+
+.session-info-title {
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    padding-top: 8px;
+}
+
+.session-info-title h3 {
+    font-size: 16px;
+    line-height: 34px;
+}
+
+.session-info-title .btn {
+    margin-left: 1em;
+}
+
+.session-info-text {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.filter-panel {
+    padding: 0 20px 10px;
+    background-color: #fff;
+}
+
+.filter-panel dl {
+    font-size: 0;
+    padding-left: 86px;
+}
+
+.filter-panel dt {
+    color: #787878;
+    padding: 5px 8px;
+    font-weight: normal;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: -86px;
+}
+
+.filter-panel dd {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 1em;
+}
+
+.filter-panel button {
+    padding: 6px 12px;
+}
+
+.filter-panel .active {
+    background-color: #f89b00;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.filter-panel .btn {
+    position: relative;
+    top: -1px;
+}
+
+.filter-panel input {
+    display: inline-block;
+    padding: 5px 8px;
+}
+
+table {
+    margin-top: 20px;
+}
+
+th {
+    background-color: #f5f5f5;
+    text-align: center;
+    border: 0 none !important;
+}
+
+td {
+    text-align: center;
+}

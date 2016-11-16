@@ -1,0 +1,18 @@
+.about-list {
+    overflow: hidden;
+    font-size: 16px;
+    padding: 0 2em;
+}
+
+.about-list a {
+    float: left;
+    white-space: nowrap;
+    width: 10em;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.about-list span {
+    float: right;
+}

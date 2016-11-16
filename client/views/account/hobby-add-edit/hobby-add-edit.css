@@ -1,0 +1,22 @@
+.hobby-form {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.control-label {
+    width: 5em;
+    text-align: right;
+    margin-right: 1em;
+}
+
+.hobby-input-wrap {
+    display: inline-block;
+}
+
+.hobby-input-wrap select {
+    display: inline-block;
+    width: 14em;
+}
+.btn {
+    margin-right: 1em;
+}

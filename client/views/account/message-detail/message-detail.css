@@ -1,0 +1,32 @@
+#mainAccount{
+	background-color: #f8f8f8;
+}
+
+/*account rigCol start*/
+.secRig{
+	width: 900px;
+}
+.wrap-title{
+	line-height: 50px;
+	font-size:14px;
+	color: #787878;
+	border-bottom:1px solid #eef3f6;
+}
+.contentBox{
+	padding:20px 20px 60px;
+}
+.contentBox p{
+	margin-top: 20px;
+}
+.smallBtn,.smallBtn:hover{
+	color: #787878;
+	border:1px solid #787878;
+	border-radius:4px;
+	padding: 3px 10px;
+}
+
+.btn {
+    margin-top: -42px;
+}
+
+

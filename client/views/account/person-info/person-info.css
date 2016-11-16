@@ -1,0 +1,152 @@
+/*.contactTit {*/
+/*margin: 20px auto 10px;*/
+/*text-align: center;*/
+/*}*/
+
+/*.uploadTit span {*/
+/*color: red;*/
+/*}*/
+
+/*.wid80 {*/
+/*width: 80px;*/
+/*}*/
+
+/*#pictemplate > div select {*/
+/*background: #fff;*/
+/*height: 30px;*/
+/*width: 100%;*/
+/*font-size: 12px;*/
+/*}*/
+
+/*#uploader .placeholder .webuploader-pick {*/
+/*background: #CE0808;*/
+/*}*/
+
+/*#uploader .placeholder .webuploader-pick-hover {*/
+/*background-color: #8c1a1d;*/
+/*}*/
+
+/*#popular .table > thead > tr > th {*/
+/*border-bottom: 2px solid #ddd;*/
+/*text-align: left;*/
+/*padding: 8px;*/
+/*font-weight: normal;*/
+/*}*/
+
+.tab-header {
+    background-color: transparent;
+}
+
+.tab-button {
+    width: 20%;
+    padding: 1em 0;
+    border-radius: 3px;
+    border: 1px solid #EEE;
+    border-top: 3px solid #EEE;
+    border-bottom: 1px solid #DDD;
+    background-color: #F4F4F4;
+}
+
+.tab-button.active {
+    border-top-color: #8C1A1D;
+    color: #8C1A1D;
+    background-color: #fff;
+    border-bottom: 0 none;
+}
+
+.tab-content {
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid #ddd;
+    border-top: 0;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.tab-item {
+    display: none;
+}
+
+.tab-item.active {
+    display: block;
+}
+
+form {
+    width: 560px;
+    margin: 0 auto;
+    position: relative;
+    left: -4em;
+}
+
+form .control-label {
+    display: inline-block;
+    width: 10em;
+    text-align: right;
+}
+
+form .control-label + div {
+    display: inline-block;
+    width: 29em;
+}
+
+.form-group span select {
+    display: inline-block;
+    width: 9.3em;
+    margin-right: 7px;
+}
+
+form .text-danger {
+    padding-left: 6em;
+}
+
+form h4.text-center {
+    font-size: 16px;
+    line-height: 4em;
+    margin-right: -90px;
+}
+
+input[type="radio"] {
+    margin: 0 .5em;
+}
+
+.form-group {
+    position: relative;
+}
+
+label.error {
+    top: inherit;
+}
+
+[id$="Provice-error"],
+[id$="Province-error"] {
+    left: 12em;
+}
+
+[id$='City-error'] {
+    left: 23em;
+}
+
+[id$='County-error'],
+[id$='Country-error']
+{
+    left: 34.5em;
+}
+
+.credit-desc {
+    padding: 0 10px;
+}
+table {
+    margin-top: 20px;
+}
+
+th {
+    background-color: #f5f5f5;
+    text-align: center;
+    border: 0 none !important;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle !important;
+}

@@ -1,0 +1,275 @@
+.first-content {
+    background: url(img/acount-first-bg.png) no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+.first-content > div {
+    float: left;
+    color: #fff;
+}
+
+.first-content h4 {
+    font-size: 25px;
+}
+
+.user-img figcaption img {
+    padding: 0px 5px;
+}
+
+.user-info {
+    margin: 35px;
+}
+
+.user-total {
+    width: 260px;
+    margin: 35px;
+}
+
+.user-doing {
+    margin-top: 50px;
+}
+
+.user-vip,
+.user-score {
+    display: block;
+}
+
+.user-doing button {
+    display: inline-block;
+    width: 88px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #7c7c7c;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: #ececec;
+}
+
+.user-doing button:first-child {
+    background-color: #fa4c5d;
+    color: #fff;
+}
+
+.account-data {
+    background: #fff;
+}
+
+.account-data table {
+    width: 100%;
+}
+
+.account-data table tr td {
+    padding: 30px 0px 30px 50px;
+    width: 33.33%;
+}
+
+.account-data table tr td strong {
+    font-size: 20px;
+    color: #9CB8C6;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: normal;
+}
+
+.account-data table tr td span span {
+    font-size: 25px;
+    color: #8C1A1D;
+}
+
+/*tabs*/
+.tabBox {
+    border-radius: 4px;
+    margin-bottom: 35px;
+}
+
+.navTab {
+    width: 100%;
+    display: table;
+    border-bottom: 1px solid #eee;
+}
+
+.widAuto {
+    /*width: auto;*/
+    margin-top: 15px;
+}
+
+.navTab li {
+    /*display: table-cell;*/
+}
+
+.wid150 {
+    width: 150px;
+}
+
+.navTab li a {
+    color: #8C1A1D;
+    border-bottom: 1px solid #DDD;
+    background-color: #F4F4F4;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding: 10px 15px;
+    display: block;
+    border-top: 3px solid #EEE;
+    border-radius: 4px 4px 0px 0px;
+    margin-bottom: -1px;
+    outline: none;
+}
+
+.navTab li a:focus {
+    outline: none;
+}
+
+.navTab li.active a {
+    border-top-color: #8C1A1D;
+    color: #8C1A1D;
+    border-bottom-color: #fff;
+    background-color: #fff;
+}
+
+/*tabContent*/
+.tabContent {
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid #EEE;
+    padding: 15px;
+    border-top: none;
+    background-color: #fff;
+}
+
+.tabContent > div.active {
+    display: block;
+}
+
+/*     待签约的标没有数据     */
+.wait-no-data {
+    color: #f00;
+    text-align: center;
+}
+
+/*   表格  start   */
+
+.table {
+    border: 1px solid #DDDDDD;
+}
+
+th {
+    background-color: #f5f5f5;
+    text-align: center;
+    border: 0 none !important;
+}
+
+.table td,
+.table th {
+    padding: 8px;
+    text-align: center;
+}
+
+table td {
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background: #f5f5f5;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.table tr:hover td {
+    background-color: #f5f5f5;
+}
+
+.table tr > td a {
+    color: #555;
+}
+
+.table tr > td .btn-contract {
+    background-color: #f89b00;
+    border: none;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 3px 6px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    line-height: 1;
+}
+
+.text-overflow-small {
+    text-align: center;
+}
+
+/*   表格  end   */
+
+/*修改莫太狂*/
+/*.modal-dialog {*/
+/*width: 900px;*/
+/*}*/
+
+.modal-body p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.modal-body .p2 {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.modal-body .p3 {
+    line-height: 2;
+}
+
+.modal-body .p4 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 2;
+}
+
+.modal-body table {
+    border-collapse: collapse;
+    width: 100%;
+    mso-table-layout-alt: fixed;
+    padding: 0.0000pt 5.4000pt 0.0000pt 5.4000pt;
+}
+
+.modal-body table tr {
+    line-height: 20px;
+}
+
+.modal-body table tr td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.modal-footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.modal-footer button {
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin: 0 20px;
+}
+
+.agreeBtn {
+    background: #F58B01;
+}
+
+.refuseBtn {
+    background: yellowgreen;
+}
+
+.cancleBtn {
+    background: #999999;
+}

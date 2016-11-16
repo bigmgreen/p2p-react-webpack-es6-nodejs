@@ -1,0 +1,634 @@
+/*     banner  start     */
+
+.page-banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.swiper-slide a {
+    display: block;
+    width: 100%;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.swiper-slide a:hover {
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+
+/*     banner  end     */
+
+/*     banner浮层  start    */
+
+.page-banner .page-container {
+    position: relative;
+}
+
+.banner-form {
+    width: 300px;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px 40px 0;
+}
+
+.banner-form:after {
+    content: '';
+    background: #333;
+    width: 100%;
+    height: 100%;
+    filter: Alpha(opacity=70);
+    opacity: .7;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+}
+
+.banner-form-title {
+    font-size: 20px;
+    line-height: 80px;
+}
+
+.banner-form-rate {
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+    display: block;
+}
+
+.banner-form-desc {
+    height: 45px;
+    line-height: 45px;
+}
+
+.banner-form-percent {
+    color: #ff6700;
+    font-size: 20px;
+}
+
+a.banner-form-btn {
+    width: 100%;
+    height: 46px;
+    background-color: #ff6700;
+    color: #fff;
+    line-height: 46px;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.banner-form-foot {
+    height: 34px;
+    line-height: 34px;
+    text-align: right;
+    color: #edeaea;
+    margin-right: 5px;
+}
+
+.banner-form-foot a {
+    color: #edeaea;
+}
+
+/* banner浮层  end */
+
+/*  平台基本信息  start    */
+
+.platform-info {
+    height: 130px;
+    padding-top: 32px;
+    font-size: 0;
+}
+
+.platform-info li:first-child {
+    border-left: 0 none;
+}
+
+.platform-info li {
+    width: 25%;
+    border-left: 1px solid #DCE5EB;
+    text-align: center;
+    display: inline-block;
+}
+
+.platform-val {
+    font-size: 36px;
+    color: #FF4855;
+    height: 42px;
+    display: block;
+    line-height: 42px;
+}
+
+.platform-tit {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #999999;
+    height: 24px;
+    line-height: 24px;
+}
+
+/*  平台基本信息  end    */
+
+/*   最新公告  start  */
+.latest-notice {
+    height: 70px;
+    line-height: 70px;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    font-size: 14px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.latest-notice .page-container {
+    padding-left: 100px;
+}
+
+.latest-notice-title {
+    background: url(index/img/dj_03.png) no-repeat left center;
+    padding-left: 30px;
+    color: #fe7112;
+    float: left;
+    line-height: 70px;
+    font-size: 14px;
+    margin-left: -100px;
+}
+
+.latest-notice-content {
+    overflow: hidden;
+    position: relative;
+    top: 24px;
+    height: 20px;
+}
+
+.latest-notice-item {
+    width: 100%;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    -webkit-transition: margin-top 1s;
+    -moz-transition: margin-top 1s;
+    -ms-transition: margin-top 1s;
+    -o-transition: margin-top 1s;
+    transition: margin-top 1s;
+}
+
+.latest-notice-desc {
+    color: #808080;
+}
+
+.latest-notice-date {
+    color: #999999;
+    margin-right: 1em;
+}
+
+.latest-notice-more {
+    color: #808080;
+}
+
+/*   最新公告   end  */
+
+/*    平台简单描述   start   */
+
+.page-desc {
+    background: #fff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.page-desc dl {
+    width: 25%;
+    float: left;
+}
+
+.page-desc dd {
+    text-align: center;
+}
+
+.page-desc dt {
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.page-desc .page-desc-title {
+    color: #52a9e9;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/*    平台简单描述   end   */
+
+/*    新手专享   start   */
+.novice-exclusive {
+    height: 120px;
+    background: #ffffff;
+}
+
+.novice-title {
+    background: #fe5c1a;
+    width: 300px;
+    height: 100%;
+    padding-left: 30px;
+    padding-top: 30px;
+    color: #ffffff;
+    float: left;
+}
+
+.novice-title h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.novice-content {
+    width: 900px;
+    height: 100%;
+    padding-top: 30px;
+    float: left;
+}
+
+.novice-content li:first-child {
+    border-left: 0 none;
+}
+
+.novice-content li {
+    height: 60px;
+    width: 210px;
+    border-left: 1px solid #DEDDDD;
+    color: #999999;
+    text-align: center;
+    float: left;
+}
+
+.novice-value {
+    font-size: 36px;
+    height: 40px;
+    line-height: 40px;
+    color: #555;
+    margin-bottom: 4px;
+    font-weight: normal;
+    display: block;
+}
+
+.novice-value span {
+    font-size: 20px;
+}
+
+.novice-content li .btn-invest {
+    margin: 12px auto 36px;
+}
+
+/*    新手专享   end   */
+
+/*    理财    start    */
+.finances-title {
+    height: 52px;
+    line-height: 52px;
+    font-size: 20px;
+}
+
+.finances-wrap {
+    height: 340px;
+    overflow: hidden;
+}
+
+.finances-left {
+    height: inherit;
+    width: 230px;
+    background: url('index/img/financBg.png') no-repeat 0;
+    float: left;
+    text-align: center;
+}
+
+.finances-left strong {
+    font-size: 40px;
+    color: #fff;
+    margin-top: 180px;
+    display: block;
+    font-weight: normal;
+}
+
+.finances-left a {
+    font-size: 18px;
+    color: #fff;
+}
+
+.finances-right {
+    height: inherit;
+    width: 970px;
+    margin-top: 30px;
+    border: 1px solid #dce5eb;
+    border-left: 0 none;
+    background-color: #fff;
+    float: left;
+    font-size: 0;
+}
+
+.finances-item {
+    height: inherit;
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.finances-item .finances-item-title {
+    height: 70px;
+    padding-top: 30px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    display: block;
+}
+
+.finances-item:first-child .finances-item-content {
+    border-left: 0 none;
+}
+
+.finances-item-content {
+    border-left: 1px dashed #e0e0e0;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+.finances-item-block {
+    height: 90px;
+    padding: 6px 18px 0 15px;
+    color: #999999;
+    border-bottom: 1px solid #dce5eb;
+}
+
+.finances-item-rate {
+    font-size: 26px;
+    color: #fd9c00;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.finances-item-rate-unit {
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.finances-item-term {
+    font-size: 26px;
+    color: #222b43;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.finances-item-term-unit {
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.finances-item-sm-block {
+    height: 70px;
+    color: #999999;
+    border-bottom: 1px solid #dce5eb;
+    text-align: left;
+    padding: 6px 18px 0 15px;
+}
+
+.finances-item-sm-block p:first-child {
+    margin-bottom: 15px;
+}
+
+.finances-item-sm-block .repay-val {
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+}
+
+.finances-item .btn-invest {
+    margin-top: 22px;
+}
+
+/*    理财    end    */
+
+/*   平台新闻和公告  start  */
+
+.news-wrap {
+    margin-top: 20px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #DCE5EB;
+    background-color: #fff;
+    padding: 0 30px;
+}
+
+.news-tab {
+    height: 60px;
+    overflow: hidden;
+    color: #305265;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.news-tab button {
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    margin: 20px 10px 20px 0;
+    color: #305265;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.news-tab button.active {
+    border: 1px solid #ff8b00;
+    color: #ff8b00;
+    border-radius: 15px;
+    height: 30px;
+    margin: 15px 10px 15px 0;
+}
+
+.news-content {
+    padding: 32px 0;
+    position: relative;
+}
+
+.news-content .info-more {
+    font-size: 16px;
+    color: #8C8C8C;
+    line-height: 20px;
+    position: absolute;
+    right: 0;
+    top: -38px;
+}
+
+.news-left {
+    width: 640px;
+    border-right: 1px dotted #dcdcdc;
+    float: left;
+    padding-top: 10px;
+}
+
+.news-img {
+    margin-right: 20px;
+    width: 200px;
+    height: 160px;
+    float: left;
+}
+
+.news-left .news-title {
+    font-size: 18px;
+    color: #ff8b00;
+    font-weight: bold;
+    margin-top: 5px;
+    display: block;
+}
+
+.news-text {
+    width: 410px;
+    height: 90px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.news-text a {
+    color: #7F7F7F;
+    font-size: 14px;
+}
+
+.news-date {
+    color: #999999;
+    margin-top: 15px;
+    float: right;
+    margin-right: 10px;
+}
+
+.news-right {
+    width: 498px;
+    float: left;
+}
+
+.news-item-img {
+    width: 100px;
+    height: 70px;
+    margin: 10px 20px 0 14px;
+    float: left;
+}
+
+.news-item-content {
+    float: left;
+    color: #9C9C9C;
+    position: relative;
+    top: 14px;
+    width: 358px;
+}
+
+.news-item-content .news-item-title {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #666;
+    white-space: nowrap;
+    display: block;
+    width: 14em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news-item-date {
+    font-size: 12px;
+    color: #9C9C9C;
+    vertical-align: bottom;
+}
+
+.news-item-content .news-item-desc {
+    color: #9C9C9C;
+    white-space: nowrap;
+    display: inline-block;
+    width: 13em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 4em;
+    vertical-align: bottom;
+}
+
+.tab-item {
+    display: none;
+}
+
+.tab-item.active {
+    display: block;
+}
+
+/*   平台新闻和公告  end  */
+
+/*      合作机构   start     */
+.partner-title {
+    height: 50px;
+    line-height: 50px;
+    color: #5C5959;
+    font-size: 20px;
+}
+
+.partner-content {
+    height: 100px;
+    background-color: #fff;
+    padding-top: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.partner-content a:first-child img {
+    margin-left: 0;
+}
+
+.partner-content img {
+    width: 200px;
+    margin-left: 20px;
+}
+
+/*      合作机构   end     */
+
+/*   按钮公共样式   */
+.btn-invest {
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    background: #ff6700;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+a.btn-invest:hover {
+    color: #fff;
+}
+
+span.btn-invest {
+    cursor: default;
+}
+
+.btn-not-start {
+    background: #E68F8C !important;
+}
+
+.btn-invest-full {
+    background: #95D195 !important;
+}
+
+.btn-repayment {
+    background: #F5CA8C !important;
+}
+
+.btn-already-repayment {
+    background: #94D6EA !important;
+}

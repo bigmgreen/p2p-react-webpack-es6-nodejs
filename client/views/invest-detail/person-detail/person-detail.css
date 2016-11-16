@@ -1,0 +1,373 @@
+/*    上左半部分    */
+.detail-top-left {
+    float: left;
+    width: 800px;
+    height: 400px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.detail-title {
+    line-height: 50px;
+    font-weight: normal;
+    font-size: 16px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #333333;
+    padding: 0 2em;
+}
+
+.detail-info {
+    margin-top: 16px;
+    padding: 0 2em;
+}
+
+.detail-info ul {
+    border-bottom: 1px dashed #E5E5E5;
+    text-align: center;
+}
+
+.detail-info li {
+    display: inline-block;
+    width: 33.33%;
+}
+
+.detail-info li.full {
+    width: 100%;
+}
+
+.detail-info-val {
+    font-size: 34px;
+    color: #FF8B28;
+}
+
+.detail-info-unit {
+    font-size: 13px;
+    color: #C6C6C6;
+}
+
+.detail-info-desc {
+    line-height: 30px;
+    font-size: 16px;
+    color: #333;
+    display: block;
+}
+
+.detail-info-text {
+    display: inline-block;
+    line-height: 70px;
+    font-size: 14px;
+    color: #333;
+}
+
+ul.detail-certification {
+    text-align: left;
+    line-height: 2em;
+    padding-bottom: 1em;
+    border-bottom: 0 none;
+    margin-top: -5px;
+}
+
+.detail-info-ol li span {
+    color: #FF8B24;
+}
+
+.detail-info-ol li img {
+    padding-right: 8px;
+}
+
+.detail-guarantee-wrap {
+    line-height: 70px;
+    font-size: 16px;
+    color: #333;
+}
+
+.detail-guarantee {
+    font-size: 14px;
+    color: #333;
+}
+
+.detail-item:first-child {
+    border-right: 2px solid #EBF0F4;
+}
+
+.detail-item {
+    border-top: 1px solid #E5E5E5;
+    background: #F7FCFF;
+    width: 50%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 2em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.detail-process {
+    line-height: 50px;
+    position: relative;
+    display: inline-block;
+    margin-left: 16px;
+    text-align: right;
+    width: 12.5em;
+}
+
+.detail-process-bar {
+    width: 120px;
+    height: 8px;
+    border-radius: 6px;
+    background: #cbcbcb;
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+}
+
+.detail-process-bar > div {
+    height: 8px;
+    border-radius: 6px;
+    background: #f59a01;
+}
+
+.count-down-val,
+.count-down-unit {
+    color: #FF8A28;
+}
+
+/*    上右半部分  */
+
+.detail-top-right {
+    float: right;
+    width: 385px;
+    height: 400px;
+    background: #FFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.detail-form {
+    padding: 2em;
+}
+
+.detail-form-info {
+    height: 80px;
+    border-bottom: 1px dashed #E5E5E5;
+}
+
+.detail-form-info li {
+    line-height: 40px;
+}
+
+.detail-form-row {
+    height: 130px;
+    border-bottom: 1px dashed #E5E5E5;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin: 1.5em 0 .5em;
+}
+
+.p3 {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #E5E5E5;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: #333;
+}
+
+.right-box {
+    width: 90%;
+    height: 260px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.right-box-ul {
+    width: 100%;
+    height: 79px;
+    border-bottom: 1px dashed #E5E5E5;
+}
+
+.right-box-ul li {
+    font-size: 14px;
+    color: #333;
+    line-height: 36px;
+}
+
+.right-box-ul li span {
+    padding-left: 33px;
+}
+
+.right-box-ul li span em {
+    font-size: 18px;
+    color: #FF8B28;
+    font-style: normal;
+}
+
+.right-box-ul li input {
+    width: 16px;
+    height: 16px;
+    margin-left: 20px;
+    margin-right: 4px;
+}
+
+.right-box-2 {
+    width: 92%;
+    height: 161px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom: 1px dashed #E5E5E5;
+}
+
+.right-box .rightBtn {
+    display: block;
+    width: 55%;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 20px;
+    color: #fff;
+    background: #FF8A28;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.detail-cash {
+    font-size: 18px;
+    color: #FF8B28;
+    margin-left: 2em;
+}
+
+/*    下半部分    */
+.detail-bottom {
+    margin: 15px 0;
+    background-color: #fff;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+}
+
+.detail-bottom-tab {
+    background-color: #eee;
+}
+
+.detail-bottom-tab li {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #008ED6;
+    cursor: pointer;
+    margin-right: 2px;
+    -webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+    transition: background-color .5s;
+}
+
+.detail-bottom-tab li.active,
+.detail-bottom-tab li:hover {
+    background-color: #f7fcff;
+    border-bottom: 1px solid #E5E5E3;
+}
+
+.detail-bottom-content {
+
+}
+
+.detail-tab-panel {
+    display: none;
+    padding: 20px 30px;
+}
+
+.detail-tab-panel.active {
+    display: block;
+}
+
+.detail-tab-panel article:first-child {
+    border-top: 0 none;
+}
+
+.detail-tab-panel article {
+    border-top: 1px solid #DDD;
+    padding-left: 18px;
+}
+
+.detail-tab-panel h4 {
+    line-height: 50px;
+    font-size: 16px;
+    color: #018ED5;
+    font-weight: bold;
+}
+
+.detail-tab-panel article li {
+    line-height: 30px;
+    display: inline-block;
+    width: 33.33%;
+}
+
+.detail-tab-panel th {
+    background-color: #eee;
+    font-weight: normal;
+}
+
+.detail-tab-panel th,
+.detail-tab-panel td {
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.img-wrap {
+    padding: 10px 0;
+    font-size: 0;
+}
+
+.img-item:first-child {
+    margin-left: 0;
+}
+
+.img-item {
+    display: inline-block;
+    width: 16%;
+    height: 200px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.img-item h6 {
+    white-space: nowrap;
+    width: 8em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.img-item img:hover {
+    -webkit-box-shadow: 0 0 15px #eee;
+    -moz-box-shadow: 0 0 15px #eee;
+    box-shadow: 0 0 15px #eee;
+    opacity: .7;
+}
+
+.img-item img {
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin: 12px auto 0;
+    -webkit-box-shadow: 0 0 5px #eee;
+    -moz-box-shadow: 0 0 5px #eee;
+    box-shadow: 0 0 5px #eee;
+    -webkit-transition: box-shadow .5s;
+    -moz-transition: box-shadow .5s;
+    -o-transition: box-shadow .5s;
+    transition: box-shadow .5s;
+    cursor: pointer;
+}

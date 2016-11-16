@@ -1,0 +1,114 @@
+.scrollable {
+    border: 5px solid #789;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.scrollable-status {
+    overflow: hidden;
+    background: #123;
+}
+
+.scrollable-status li {
+    float: left;
+    color: #fff;
+    line-height: 35px;
+    width: 33.33%;
+}
+
+.scrollable-status li.active {
+    background-color: #369;
+    font-weight: normal;
+}
+
+.items {
+    width: 10000px;
+    position: relative;
+    overflow: hidden;
+}
+
+.scrollable-panel {
+    padding: 40px 100px;
+    width: 560px;
+    float: left;
+}
+
+.scrollable-panel strong {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 3;
+}
+
+.scrollable-btn-nav {
+    width: 360px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.scrollable-btn-nav .next {
+    margin-left: 1em;
+}
+
+.scrollable-btn-nav .prev,
+.scrollable-btn-nav .next {
+    width: 100px;
+    line-height: 32px;
+    border: 1px solid #d3d3d3;
+}
+
+.scrollable-panel .input-group {
+    margin: 0 0 15px;
+}
+
+.info-name {
+    display: inline-block;
+    width: 8em;
+    padding-right: 1em;
+    text-align: right;
+    margin-left: 5em;
+}
+
+.info-value {
+    padding-right: 1em;
+}
+
+.info-unit {
+    font-size: 12px;
+}
+
+.form-wrap {
+    padding-left: 74px;
+}
+
+.img-code {
+    width: 7em;
+    text-align: right;
+    padding: 0;
+    padding-right: 1em;
+    background-color: #fff;
+    border: 0 none;
+}
+
+.img-code img {
+    width: 7em;
+    text-align: right;
+    padding: 0;
+    padding-right: 1em;
+    background-color: #fff;
+    border: 0 none;
+    height: 34px;
+}
+
+
+.invest-error {
+    position: absolute;
+    bottom: -15px;
+    color: #FF0101;
+    white-space: nowrap;
+    left: 26%;
+    font-size: 12px;
+}

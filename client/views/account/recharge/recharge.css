@@ -1,0 +1,110 @@
+/*   新样式   */
+.tab-header {
+    background-color: #fff;
+}
+
+.tab-button {
+    width: 50%;
+    padding: 1em 0;
+    border-radius: 3px;
+    border: 1px solid #EEE;
+    border-top: 3px solid #EEE;
+    border-bottom: 1px solid #DDD;
+    background-color: #F4F4F4;
+}
+
+.tab-button.active {
+    border-top-color: #8C1A1D;
+    color: #8C1A1D;
+    background-color: #fff;
+    border-bottom: 0 none;
+}
+
+.tab-content {
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid #ddd;
+    border-top: 0;
+    padding: 15px;
+}
+
+.tab-item {
+    display: none;
+}
+
+.tab-item.active {
+    display: block;
+}
+
+.form {
+    width: 460px;
+    margin: 1em auto;
+    text-align: center;
+}
+
+/*     Input组件样式  start     */
+
+.input-row {
+    margin-bottom: 15px;
+    padding: 0 15px;
+    background-color: #fff;
+}
+
+.input-group-addon {
+    width: 7em;
+    text-align: right;
+    padding: 0;
+    padding-right: 1em;
+    background-color: #fff;
+    border: 0 none;
+}
+
+.input-group .form-control {
+    width: 18em;
+    border-radius: 4px !important;
+}
+
+/*     Input组件样式  end     */
+
+.warm-warning {
+    padding: 20px 20px 0;
+    border-top: 1px solid #dfdfdf;
+    font-size: 14px;
+}
+.warm-warning img {
+    margin-right: 1em;
+    vertical-align: middle;
+}
+
+.warm-warning li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    line-height: 30px;
+}
+
+/*   银行卡样式   */
+.bank-card-box {
+    width: 310px;
+    height: 190px;
+    background-image: url(img/tixianxin.png);
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 15px;
+    overflow: hidden;
+}
+.bank-card-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+    padding: 15px;
+    color: #f00;
+}
+.bank-card-info{
+    color: #666;
+    padding: 0 1em;
+}
+.no-bank-card {
+    font-size: 14px;
+    margin-top: 120px;
+    padding-left: 1em;
+}

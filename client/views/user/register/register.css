@@ -1,0 +1,112 @@
+.page-container {
+    margin-top: 15px;
+}
+
+.reg-left {
+    width: 685px;
+    float: left;
+}
+
+.reg-right {
+    float: right;
+    width: 485px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+form {
+    overflow: hidden;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+input[type="checkbox"] {
+    margin: 0;
+    margin-left: 7em;
+    vertical-align: middle;
+}
+
+/*     Input组件样式  start     */
+
+.img-code {
+    height: 34px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.send-msg {
+    padding: 0px 10px;
+    color: #FFFFFF;
+    background-color: #d2322d;
+    font-size: 12px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 4px;
+    line-height: 34px;
+    outline: none;
+}
+
+.input-row {
+    margin-bottom: 15px;
+    padding: 0 15px;
+    background-color: #fff;
+}
+
+.input-group-addon {
+    width: 7em;
+    text-align: right;
+    padding: 0;
+    padding-right: 1em;
+    background-color: #fff;
+    border: 0 none;
+}
+
+.input-group .form-control {
+    width: 18em;
+    border-radius: 4px !important;
+}
+
+/*     Input组件样式  end     */
+
+/*     标签页  start   */
+.tab-container {
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+.tab-header {
+    background-color: transparent;
+}
+
+.tab-button {
+    width: 50%;
+    padding: 1em 0;
+    border-radius: 3px;
+    border: 1px solid #EEE;
+    border-top: 3px solid #EEE;
+    border-bottom: 1px solid #DDD;
+    background-color: #F4F4F4;
+}
+
+.tab-button.active {
+    border-top-color: #8C1A1D;
+    color: #8C1A1D;
+    background-color: #fff;
+    border-bottom: 0 none;
+}
+
+.tab-content {
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid #ddd;
+    border-top: 0;
+}
+
+.tab-item {
+    display: none;
+}
+
+.tab-item.active {
+    display: block;
+}
+/*     标签页  end   */

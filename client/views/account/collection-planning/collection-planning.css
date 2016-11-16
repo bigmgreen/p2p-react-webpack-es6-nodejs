@@ -1,0 +1,153 @@
+#mainAccount{
+	background-color: #f8f8f8;
+}
+
+/*account rigCol start*/
+.secRig{
+	width: 900px;
+}
+/*account rigCol common end*/
+/*tabs*/
+.tabBox{
+	border-radius:4px;
+	margin-bottom: 35px;
+}
+.navTab{
+	width: 100%;
+	display: table;
+	border-bottom: 1px solid #eee;
+}
+.widAuto{
+	/*width: auto;*/
+	margin-top:15px;
+}
+.navTab li{
+	/*display: table-cell;*/
+}
+.wid150{
+	width: 150px;
+}
+.navTab li a{
+	color: #8C1A1D;
+	border-bottom: 1px solid #DDD;
+	background-color: #F4F4F4;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	padding: 10px 15px;
+	display: block;
+	border-top: 3px solid #EEE;
+	border-radius: 4px 4px 0px 0px;
+	margin-bottom: -1px;
+	outline: none;
+}
+.navTab li a:focus{
+	outline: none;
+}
+.navTab li.active a{
+	border-top-color: #8C1A1D;
+	color: #8C1A1D;
+	border-bottom-color: #fff;
+	background-color: #fff;
+}
+
+/*tabContent*/
+.tabContent{
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+	border:1px solid #EEE;
+	padding: 15px;
+	border-top: none;
+	background-color: #fff;
+}
+.tabContent > div{
+	display: none;
+}
+.tabContent >div.active{
+	display: block;
+}
+.blankData{
+	line-height: 200px;
+	color: red;
+}
+
+.table{
+	border: 1px solid #DDDDDD;
+}
+.table tr > td,.table > thead th{
+	padding: 8px;
+}
+.table > thead th{
+	background: #f5f5f5;
+	border-bottom: 2px solid #DDDDDD;
+	text-align: left;
+	font-weight: normal;
+	font-size: 12px;
+}
+.tableSmall{
+	width: 95%;
+	margin: 20px auto;
+	
+}
+.tableSmall > thead th{
+	text-align: center;
+}
+.table tr:hover td{
+	background-color: #f5f5f5;
+}
+.table tr > td a{
+	color: #555;
+}
+.table tr > td .nextSmallBtn{
+	background-color: #f89b00;
+    border:none;
+    display: block;
+    color: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px 6px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    line-height: 1;
+    display: inline-block;
+}
+.table-borderBot tr > td{
+	border-bottom: 1px solid #ddd;
+}
+
+/*progress css*/
+.proBox{
+	position: relative;
+	width: 150px;
+}
+.proBox div{
+	position: absolute;
+	top:14px;
+	width: 100px;
+	height: 10px;
+	border-radius:5px;
+	background-color: #DDDDDD;
+	overflow: hidden;
+}
+
+.proBox div.progress-bar{
+	width: 10%;
+	background-color: #398439;
+	top: 0px;
+	border-radius: 0px;
+}
+.proBox span{
+	position: absolute;
+	top:11px;
+	right: 0px;
+}
+.earnBox{
+	background-color: #FFFFFF;
+}
+.earnBox h4{
+	line-height: 40px;
+	padding-left: 20px;
+}
+.loanDecription{
+	padding: 15px;
+	line-height: 25px;
+}
